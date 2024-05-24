@@ -12,7 +12,7 @@ public class Product {
 
     private Integer STOCK;
 
-    private boolean active;
+
 
     public Integer getPRODUCTID() {
         return PRODUCTID;
@@ -54,11 +54,4 @@ public class Product {
         this.STOCK = STOCK;
     }
 
-    public boolean isActive() {
-        return active;
-    }
-
-    public void setActive(boolean active) {
-        this.active = active;
-    }
 }

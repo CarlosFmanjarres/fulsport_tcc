@@ -1,10 +1,11 @@
 package com.fullsport.persistence.entity;
 
+import com.fullsport.domain.Product;
 import jakarta.persistence.*;
 
 @Entity
 @Table(name = "PRODUCTOS")
-public class Producto {
+public class Producto extends Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
